@@ -1,7 +1,6 @@
 local o = vim.opt
 
 o.backup = false                          -- creates a backup file
-o.clipboard = "unnamedplus"               -- allows neovim to access the system clipboard
 o.cmdheight = 2                           -- more space in the neovim command line for displaying messages
 o.completeopt = { "menuone", "noselect" } -- mostly just for cmp
 o.conceallevel = 0                        -- so that `` is visible in markdown files
@@ -32,7 +31,9 @@ o.numberwidth = 4                         -- set number column width to 2 {defau
 o.signcolumn = "yes"                      -- always show the sign column, otherwise it would shift the text each time
 o.wrap = false                            -- display lines as one long line
 o.scrolloff = 8                           -- is one of my fav
-o.sidescrolloff = 8
+o.sidescrolloff = 4
 o.shortmess:append "c"
 
-o.guifont = "JetBrainsMono Nerd Font:h14"
+o.guifont = "BlexMono Nerd Font:h13"
+
+-- o.clipboard = "unnamedplus"               -- allows neovim to access the system clipboard (makes Neovim very slow while deleting things)

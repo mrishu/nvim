@@ -44,14 +44,16 @@ local mappings = {
 	{ "n", "<S-h>", ":bprevious<CR>", opts },
 
 	-- Telescope
-	{ 'n', '<leader>ff', "<cmd> Telescope find_files <CR>", opts },
-	{ 'n', '<leader>fg', "<cmd> Telescope live_grep <CR>", opts },
-	{ 'n', '<leader>fb', "<cmd> Telescope buffers <CR>", opts },
-	{ 'n', '<leader>fh', "<cmd> Telescope help_tags <CR>", opts },
+	{ 'n', '<leader>ff', "<cmd> Telescope find_files<CR>", opts },
+	{ 'n', '<leader>fg', "<cmd> Telescope live_grep<CR>", opts },
+	{ 'n', '<leader>fb', "<cmd> Telescope buffers<CR>", opts },
+	{ 'n', '<leader>fh', "<cmd> Telescope help_tags<CR>", opts },
+	-- Session Manager
+	{ 'n', '<leader>fs', "<cmd> SessionManager load_session<CR>", opts },
 
 	-- Edit config
 	{ 'n', '<leader>cc', ":e ~/.config/nvim/init.lua<CR>", opts },
-
+	
 	-- Visual --
 	-- Stay in indent mode
 	{ "v", "<", "<gv", opts },
@@ -61,7 +63,7 @@ local mappings = {
 	-- Move text up and down
 	{ "x", "J", ":move '>+1<CR>gv-gv", opts },
 	{ "x", "K", ":move '<-2<CR>gv-gv", opts },
-
+	
 	-- Terminal --
 	-- Better terminal navigation
 	{ "t", "<C-h>", "<C-\\><C-N><C-w>h", term_opts },

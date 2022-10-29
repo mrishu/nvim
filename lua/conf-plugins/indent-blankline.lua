@@ -7,6 +7,7 @@ vim.g.indent_blankline_filetype_exclude = {
 	"",
 	"NvimTree",
 	"tex",
+	"alpha",
 }
 
 require("indent_blankline").setup {

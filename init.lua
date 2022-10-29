@@ -5,13 +5,13 @@ vim.g.loaded_netrwPlugin = 1
 -- Load packer
 require('plugins')
 require('impatient') -- for faster startup
-
+--
 require('core.options')
 require('core.user_commands')
 require('core.mappings')
 require('core.autocmds')
-
--- Load colorscheme
+--
+-- -- Load colorscheme
 require('colorscheme')
 
 -- Load plugins
@@ -25,3 +25,6 @@ require('conf-plugins.bufferline')
 require('conf-plugins.indent-blankline')
 require('conf-plugins.telescope')
 require('conf-plugins.nvterm')
+require('conf-plugins.alpha')
+require('conf-plugins.neovim_session_manager')
+require('conf-plugins.which-key')

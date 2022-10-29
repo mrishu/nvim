@@ -6,3 +6,5 @@
 2. Look for setting up linters
 	i. null-ls
 	ii. mason for linters, DAP???
+
+3. Configure which-key

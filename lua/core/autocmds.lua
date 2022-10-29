@@ -17,4 +17,9 @@ augroup cursorline_only_on_active
     au WinLeave * setlocal nocursorline
 augroup END
 
+augroup session_load
+	autocmd!
+	autocmd SessionLoadPost * NvimTreeOpen
+augroup END
+
 ]])
