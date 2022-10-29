@@ -16,7 +16,7 @@ require("bufferline").setup {
 				text_align = "center",
 				highlight = "Directory",
 				separator = true
-			}
+			},
 		},
-	}
+	},
 }

@@ -1,17 +1,13 @@
+require('impatient') -- for faster startup
+
 -- disable netrw at the very start of your init.lua (strongly advised) (for nvim-tree)
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 
 -- Load packer
 require('plugins')
-require('impatient') -- for faster startup
---
-require('core.options')
-require('core.user_commands')
-require('core.mappings')
-require('core.autocmds')
---
--- -- Load colorscheme
+
+-- Load colorscheme
 require('colorscheme')
 
 -- Load plugins
@@ -28,3 +24,10 @@ require('conf-plugins.nvterm')
 require('conf-plugins.alpha')
 require('conf-plugins.neovim_session_manager')
 require('conf-plugins.which-key')
+
+-- Load vim specific configs
+require('core.options')
+require('core.user_commands')
+require('core.mappings')
+require('core.autocmds')
+

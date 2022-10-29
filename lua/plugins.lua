@@ -118,9 +118,10 @@ return require('packer').startup(function(use)
 
 	-- Telescope and plugins
 	use { 'nvim-telescope/telescope.nvim', tag = '0.1.x' }
-	-- telescope vim.ui.select
-	use "nvim-telescope/telescope-ui-select.nvim"
 	use {'nvim-telescope/telescope-fzf-native.nvim', run = 'make' }
+
+	-- better vim.ui.select and vim.ui.input
+	use 'stevearc/dressing.nvim'
 
 	-- Indentline
 	use "lukas-reineke/indent-blankline.nvim"
