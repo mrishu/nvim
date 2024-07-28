@@ -1,7 +1,7 @@
 # Personal Neovim Configuration (Powered by LazyVim)
 
-## LazyVim
-[LazyVim](https://github.com/LazyVim/LazyVim)
+## [LazyVim](https://github.com/LazyVim/LazyVim)
+
 There's a great video created by [@elijahmanor](https://github.com/elijahmanor) with a walkthrough to get started.
 
 [![Watch the video](https://img.youtube.com/vi/N93cTbtLCIM/hqdefault.jpg)](https://www.youtube.com/watch?v=N93cTbtLCIM)
